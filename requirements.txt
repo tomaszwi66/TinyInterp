@@ -1,0 +1,26 @@
+# Core ML - install CUDA PyTorch first:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+torch>=2.4.0
+transformers>=4.40.0
+accelerate>=0.30.0
+bitsandbytes>=0.43.0
+einops>=0.7.0
+jaxtyping>=0.2.25
+
+# Interpretability
+nnsight==0.6.3
+nnterp>=1.0.0
+sae-lens>=6.43.0
+
+# UI
+streamlit>=1.35.0
+plotly>=5.20.0
+
+# LLM reporting
+ollama>=0.6.0
+
+# Utilities
+diskcache>=5.6.3
+pandas>=2.0.0
+numpy>=1.26.0
+tqdm>=4.66.0

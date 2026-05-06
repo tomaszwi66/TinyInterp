@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# App generated data
+.cache/
+results/
+checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code session data
+.claude/
+
+# Private docs
+PORADNIK.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive
+.env
+*.env
+secrets.py
